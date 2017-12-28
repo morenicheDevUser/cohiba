@@ -1,7 +1,6 @@
 require('tether');
 window.$ = window.jQuery = require('jquery');
 require('bootstrap');
+require('bootstrap/dist/css/bootstrap.css');
 
-
-console.log("Hello World!");
-
+require('./js/mainAppCode.js');
